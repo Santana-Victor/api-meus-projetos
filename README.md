@@ -12,18 +12,17 @@
 
 ## Projeto
 
-Esse projeto é a API REST utilizada no meu portfólio, tendo como objetivo retornar os dados
-meus projetos que estão salvos em um Banco de Dados no [MongoDB Atlas](https://www.mongodb.com/products/platform/atlas-database).
+Esse projeto é a API REST utilizada no meu portfólio, tendo como objetivo retornar os dados dos meus projetos que estão salvos em um Banco de Dados no <a href="https://www.mongodb.com/products/platform/atlas-database" target="_blank">MongoDB Atlas</a>.
 
 ## Tecnologias Utilizadas
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [Node.js](https://nodejs.org/)
-- [Typescript](https://www.typescriptlang.org/)
-- [Fastify](https://github.com/fastify/fastify/)
-- [Prisma ORM](https://www.prisma.io/)
-- [MongoDB](https://www.mongodb.com/)
+- <a href="https://nodejs.org/" target="_blank">Node.js</a>
+- <a href="https://www.typescriptlang.org/" target="_blank">Typescript</a>
+- <a href="https://github.com/fastify/fastify/" target="_blank">Fastify</a>
+- <a href="https://www.prisma.io/" target="_blank">Prisma ORM</a>
+- <a href="https://www.mongodb.com/" target="_blank">MongoDB</a>
 
 ## Como Executar
 
@@ -41,9 +40,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 4.  Ainda no arquivo `.env` preencha a variável `DATABASE_URL` com sua string de conexão com o
     MongoDB, exemplo abaixo:
 
-        ```shell
-        DATABASE_URL="mongodb+srv://<USERNAME>:<PASSWORD>@cluster0.ns1yp.mongodb.net/<DATABASE>"
-        ```
+    ```shell
+    DATABASE_URL="mongodb+srv://<USERNAME>:<PASSWORD>@cluster0.ns1yp.mongodb.net/<DATABASE>"
+    ```
 
 5.  Execute o projeto com o comando `npm run dev`
 
@@ -80,4 +79,4 @@ siga os passos abaixo:
 
 ### Front-end
 
-Link do [repositório](https://github.com/Santana-Victor/Portfolio)
+<a href="https://github.com/Santana-Victor/Portfolio" target="_blank">Link do repositório do Front-end</a>
