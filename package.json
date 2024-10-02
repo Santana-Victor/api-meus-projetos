@@ -2,8 +2,13 @@
   "name": "api-projetos",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node": "20.16.0"
+  },
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts",
+    "start": "node dist/server.js",
+    "build": "tsup src"
   },
   "keywords": [],
   "author": "",
