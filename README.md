@@ -37,29 +37,28 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 3.  Vá até o arquivo `.env.example` na raiz do projeto e renome-o para `.env`
 
-4.  Ainda no arquivo `.env` preencha a variável `DATABASE_URL` com sua string de conexão com o
-    MongoDB, exemplo abaixo:
+4.  Ainda no arquivo `.env` preencha as variáveis de ambiente, instruções abaixo:
 
-    ```shell
-    DATABASE_URL="mongodb+srv://<USERNAME>:<PASSWORD>@cluster0.ns1yp.mongodb.net/<DATABASE>"
-    ```
+       ```shell
+       DATABASE_URL=            # Insira aqui sua string de conexão com o MongoDB
+       DOMAIN_ACCESS_ALLOWED=   # Insira aqui a URL do seu front-end, por exemplo: http://localhost:5173
+       ```
 
-5.  Execute o projeto com o comando `npm run dev`
+6.  Execute o projeto com o comando `npm run dev`
 
 ## Exemplo
 
-Utilizando o Postman ou alguma outra ferramenta de teste de API's de sua preferência,
-siga os passos abaixo:
+Utilizando o Postman ou alguma outra ferramenta de teste de API's de sua preferência, siga os passos abaixo:
 
 1. Endpoint:
 
    - Máquina local:
      ```shell
-     http://localhost:8080/projects/
+     http://localhost:8080/projects
      ```
    - Servidor Web:
      ```shell
-     https://api-meus-projetos.onrender.com/projects/
+     https://api-meus-projetos.onrender.com/projects
      ```
 
 2. Será retornado o JSON abaixo:
