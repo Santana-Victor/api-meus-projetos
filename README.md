@@ -52,16 +52,12 @@ Utilizando o Postman ou alguma outra ferramenta de teste de API's de sua prefer�
 
 1. Endpoint:
 
-   - Máquina local:
-     ```shell
-     http://localhost:8080/projects
-     ```
-   - Servidor Web:
-     ```shell
-     https://api-meus-projetos.onrender.com/projects
-     ```
+    ```shell
+    http://localhost:8080/projects
+    ```
 
-2. Será retornado o JSON abaixo:
+2. Exemplo de resposta da API:
+
    ```shell
    [
     {
